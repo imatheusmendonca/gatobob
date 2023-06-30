@@ -1,0 +1,25 @@
+.quadrado {
+    width: 800px;
+    height: 250px;
+    /* cria a borda em volta da div */
+    border: 5px solid black;
+    border-radius: 40px;
+    /* centralizando o conteudo dentro dessa div */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quadrado img {
+    width: 100px;
+    height: 100px;
+}
+body {
+    background: url(gatinho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* centralizando a minha div com a classe 'quadrado' */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*calcula o tamanho total da tela do usuario e utiliza 100%*/
+}

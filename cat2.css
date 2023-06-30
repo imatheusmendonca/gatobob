@@ -1,0 +1,31 @@
+body {
+    background: url(gatinho.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+nav {
+    /* Configuração para deixar o navbar fixo na tela */
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.353);
+    text-align: end;
+    height: 60px;
+    margin-top: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+}

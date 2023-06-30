@@ -1,0 +1,30 @@
+body{
+    background: url(gatinho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* centralizando a minha TABLE*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*calcula o tamanho total da tela do usuario e utiliza 100%*/
+} 
+table{
+    width: 800px;
+    border-collapse: collapse;
+    height: 200px;
+}
+th,td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #ddd;
+    font-size: 25px;
+}
+
+th{
+    background-color: #ddd;
+}
+
+td {
+    background: rgba(0, 0, 0, 0.3);
+    color: #ddd;
+}
